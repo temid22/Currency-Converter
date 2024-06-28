@@ -1,0 +1,31 @@
+.App {
+  max-width: 500px;
+  width: 100%;
+  margin: 60px auto;
+}
+
+.formWrapper {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 1% 0 1%;
+  padding: 40px 0;
+  box-shadow: 8px 5px 10px grey;
+}
+
+form input {
+  border-radius: 5px;
+}
+
+form label {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+input[disabled] {
+  background-color: rgb(233, 233, 233);
+}
+
+.curr {
+  text-shadow: 2px 2px 5px red;
+}
